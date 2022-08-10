@@ -1,0 +1,2 @@
+include ':libBioMini'
+include ':biominisample'

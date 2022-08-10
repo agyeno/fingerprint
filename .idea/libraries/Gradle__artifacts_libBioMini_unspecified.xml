@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:libBioMini:unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libBioMini/build/.transforms/ca113114f249b06dd99fd62094f009b1/libBioMini/res" />
+      <root url="jar://$PROJECT_DIR$/libBioMini/build/.transforms/ca113114f249b06dd99fd62094f009b1/libBioMini/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/libBioMini/build/.transforms/ca113114f249b06dd99fd62094f009b1/libBioMini/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

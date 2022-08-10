@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/actionLogout"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:orderInCategory="100"
+        android:title="help line"
+        app:showAsAction="always" />
+</menu>

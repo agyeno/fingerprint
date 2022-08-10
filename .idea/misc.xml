@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable-xxxhdpi/splash_background.xml" value="0.1" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable/ic_cancel_red.xml" value="0.1025" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable/ic_correct_green.xml" value="0.1025" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/drawable/round_outline.xml" value="0.1" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout-land/default_main.xml" value="0.25" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout-land/fragment_basic_func.xml" value="0.33" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_clockin_bio_verify.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_clockin_card.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_clockin_login.xml" value="0.2818181818181818" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_clockin_startup.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_main.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/activity_scanner.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/default_main.xml" value="0.24031007751937986" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/fragment_basic_func.xml" value="0.25" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/layout/qr_custom_scanner.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/menu/logout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/menu/menu_how_to.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Chris Mensah/FlutterVtom/900PS21FP_BioMiniSDK for Android_v2.1.0.343/sample/biominisample/src/main/res/xml/setting_pref.xml" value="0.35833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

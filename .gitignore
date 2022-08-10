@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/biominisample/build/
+/biominisample/build/intermediates/javac/debug/classes/
+/build/
+/libBioMini/build/

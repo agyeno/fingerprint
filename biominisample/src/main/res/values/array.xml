@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="template_type">
+    <item>Suprema</item>
+    <item>ISO</item>
+    <item>ANSI</item>
+  </string-array>
+  <string-array name="template_type_value">
+    <item>2001</item>
+    <item>2002</item>
+    <item>2003</item>
+  </string-array>
+
+  <string-array name="theme_mode">
+    <item>@string/Theme_light</item>
+    <item>@string/Theme_dark</item>
+  </string-array>
+
+  <string-array name="theme_mode_value">
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <array name="autosize_text_sizes">
+    <item>6sp</item>
+    <item>10sp</item>
+    <item>14sp</item>
+    <item>18sp</item>
+  </array>
+</resources>

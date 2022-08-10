@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    tools:context=".Clockin_Card">
+
+
+
+
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:textStyle="italic"
+        android:padding="5sp"
+        android:gravity="center"
+        android:id="@+id/textViewClockOutResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewClockOutResponse"
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextCardNoClockOut"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/round_outline1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="user"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Blue"
+                android:textSize="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextTemperatureClockOut"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/round_outline1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="temperature"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Blue"
+                android:textSize="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reason For Clock Out" />
+
+        <Spinner
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:background="@drawable/corner1"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/White"
+            android:id="@+id/buttonSaveClockOut"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clock"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:visibility="invisible"
+        android:id="@+id/floatingActionButtonClockOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_white_qr_code_scanner_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+
+
+
+</RelativeLayout>

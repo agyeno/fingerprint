@@ -1,0 +1,155 @@
+<resources>
+    <!-- <string name="app_name">BioMini&#8482; Android Sample</string> -->
+    <string name="app_name">VTOM Attendance</string>
+
+    <string name="prefcategory_capturesetting">Capture Setting</string>
+    <string name="prefcategory_getneralsetting">General Setting</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="checkdevice"> Check Device </string>
+    <string name="capturesingle">Capture Single</string>
+    <string name="start_capture">Start Capturing</string>
+    <string name="abort_capture">Abort Capture</string>
+
+    <string name="label_capture">CheckDevice and Capture</string>
+    <string name="save_as_bmp">Save as BMP</string>
+    <string name="save_as_wsq">Save as WSQ</string>
+    <string name="save_template">Save Template</string>
+    <string name="save_as_19794_4">Save as 19794_4</string>
+    <string name="save_as_Raw">Save as Raw</string>
+
+    <string name="capture_ok">Capture OK</string>
+    <string name="capture_fail">Capture Fail</string>
+
+    <string name="capture_single_ok">Capture Single OK</string>
+    <string name="capture_single_fail">Capture Single Fail</string>
+
+    <string name="capture_auto_ok">Capture Auto OK</string>
+    <string name="capture_auto_fail">Capture Auto Fail</string>
+
+    <string name="start_capture_ok">StartCapture OK</string>
+    <string name="start_capture_fail">StartCapture Fail</string>
+
+    <string name="enroll_ok">Enrollment OK</string>
+    <string name="enroll_fail">Enrollment FAIL</string>
+
+    <string name="verify_ok">Verify OK</string>
+    <string name="verify_id">This is the fingerprint of the</string>
+    <string name="verify_fail">Verify FAIL</string>
+    <string name="verify_not_match_by_tempateData">Template data is not matched</string>
+    <string name="verify_not_match_by_templateType">Template type is not matched</string>
+
+    <string name="delete_user">Clear user list</string>
+
+    <string name="no_user_name">There is no user name.</string>
+
+    <string name="export_bmp_ok">Export BMP OK</string>
+    <string name="export_bmp_fail">Export BMP FAIL</string>
+
+    <string name="export_wsq_ok">Export WSQ OK</string>
+    <string name="export_wsq_fail">Export WSQ FAIL</string>
+
+    <string name="export_template_ok">Export Template OK</string>
+    <string name="export_decrypt_template_ok">Export Decrypt Template OK</string>
+    <string name="export_template_fail">Export Template FAIL</string>
+
+    <string name="export_19794_4_ok">Export 19794_4 OK</string>
+    <string name="export_19794_4_fail">Export 19794_4 FAIL</string>
+
+    <string name="export_Raw_ok">Export Raw OK</string>
+    <string name="export_Raw_fail">Export Raw FAIL</string>
+
+    <string name="read_params_ok">Read Parameters OK</string>
+    <string name="read_params_fail">Read Paramters FAIL</string>
+
+    <string name="write_params_ok">Write Parameters OK</string>
+    <string name="write_params_fail">Write Parameters FAIL</string>
+
+    <string name="device_attached">Device Connected</string>
+    <string name="device_detached">Device Disconnected</string>
+    <string name="error_device_not_conneted">Device is not connected. Please connect device first.</string>
+    <string name="usb_detached">USB is disconnected. Please check USB connection.</string>
+
+    <string name="toast_viewpager_capturing">Capture is started. The page is locked until capture is finished.</string>
+    <!--BASIC TAB -->
+    <string name="tab_basicfunction">BASIC FUNCTION</string>
+    <string name="tv_deviceinfo">DEVICE :</string>
+    <string name="tv_devicename">DEVICE :</string>
+    <string name="tv_sdkinfo">SDK :</string>
+    <string name="tv_serialnumber">SERIAL :</string>
+    <string name="tv_fwversion">FW :</string>
+    <string name="captured_image_view">CAPTURED IMAGE</string>
+
+    <string name="bt_capturesingle">SINGLE CAPTURE</string>
+    <string name="bt_startpreview">PREVIEW</string>
+    <string name="bt_autocapture">AUTO CAPTURE</string>
+    <string name="bt_abortcapture">ABORT CAPTURE</string>
+    <string name="error_other_capture_runnging">The current capture function cannot be started because other capture function is running.</string>
+    <string name="error_abort_capture_runnging">The current capture function cannot be started because abort capture function is running.</string>
+
+    <string name="bt_enrollment">ENROLL</string>
+    <string name="bt_verify">VERIFY</string>
+    <string name="bt_enrolldummy">ENROLL DUMMY</string>
+    <string name="bt_deleteallusers">DELELTE ALL USER</string>
+
+    <string name="bt_exportBmp">EXPORT BMP</string>
+    <string name="bt_exportWsq">EXPORT WSQ</string>
+    <string name="bt_export19794">EXPORT 19794_4</string>
+    <string name="bt_exporttemplate">EXPORT TEMPLATE</string>
+
+    <string name="pref_sensitivity">Sensitivity</string>
+    <string name="pref_security">Security </string>
+    <string name="pref_timeout">Timeout </string>
+    <string name="pref_hwlfd">Device LFD</string>
+    <string name="pref_swlfd">Software LFD</string>
+    <string name="pref_fastmode">Fast Mode</string>
+    <string name="pref_cropmode">Crop Mode</string>
+    <string name="pref_exttriger">Ext Triger</string>
+    <string name="pref_autosleep">Auto Sleep</string>
+    <string name="pref_manualsleep">Manual Sleep</string>
+    <string name="pref_omniDirVerify">OmniDir Verify</string>
+    <string name="pref_imageflip180d">Image Rotate 180d</string>
+    <string name="pref_detectcore">Detect Core</string>
+    <string name="pref_useNativeUsbMode">Use Native USB Mode</string>
+    <string name="pref_firmwareupdate">Firmware Update</string>
+    <string name="pref_templatequalityex">Template Quality Ex</string>
+    <string name="pref_exporttemplatetype">Template Type</string>
+    <string name="pref_lfdfromimagefile">Live Finger Detection From Image File</string>
+    <string name="error_export_template_no_template">Template Data is not exist. Please proceed with the capture first. </string>
+    <string name="error_export_template_no_Encyptkey">Encypt Key is not exist. Please enter the encrypt key first. </string>
+
+    <string name="pref_summery_sensitivity">Set Capture Parameter Sensitivity. 1~7 range value.</string>
+    <string name="pref_error_wrong_range_value">The value is not available. Please enter a value in the correct range.</string>
+    <string name="pref_summery_security">Set Capture Parameter security. 1~7 range value.</string>
+    <string name="pref_summery_timeout">Set Capture Parameter timeout. 1~60 range value.</string>
+    <string name="pref_summery_hwlfd">Set Capture Parameter  hw lfd. 1~5 range value.</string>
+    <string name="pref_summery_swlfd">Set Capture Parameter sw lfd. 1~5 range value.</string>
+    <string name="pref_summery_unsupport_swlfd">This device is not support SW LFD.</string>
+    <string name="pref_summery_unsupport_hwlfd">This device is not support HW LFD.</string>
+    <string name="pref_summery_fastmode">Set Capture Parameter Fast Mode.</string>
+    <string name="pref_summery_cropmode">Set Capture Parameter Crop Mode. </string>
+    <string name="pref_summery_exttriger">Set Capture Parameter Ext Triger.</string>
+    <string name="pref_summery_autosleep">Set Capture Parameter Auto Sleep.</string>
+    <string name="pref_summery_manualsleep">Set Capture Parameter Manual Sleep for BioMini Slim 2S, BioMini Slim 3. </string>
+    <string name="pref_summery_imageflip180d">Set Capture Parameter Image Flip 180d.</string>
+    <string name="pref_summery_omniDirVerify">Set Capture Parameter OmniDir Verify.</string>
+    <string name="pref_summery_detectcore">Set Capture Parameter Detect Core. </string>
+    <string name="pref_summery_useNativeUsbMode">Set USB mode to Native USB Mode. Default Mode is android USB Mode. Supports BioMini Slim 2.</string>
+    <string name="pref_summery_firmwareupdate">Update the firmware of the connected device. </string>
+    <string name="pref_summery_lfdfromimagefile">Select Image File with File browser. Currently, this function is support Raw image file, only. </string>
+    <string name="pref_summery_templatequalityex">Set Capture Parameter Templat Quality Ex.</string>
+    <string name="pref_summery_exporttemplatetype">Select Template Type to Export.</string>
+    <string name="pref_summery_themelist">Select theme Light/Dark.</string>
+    <string name="pref_license">License</string>
+
+    <!--SETTING TAB -->
+    <string name="tab_setting">SETTING</string>
+
+    <string name="Theme_list">Theme Setting</string>
+    <string name="Theme_dark">Dark Theme</string>
+    <string name="Theme_light">Light Theme</string>
+    <string name="Theme_dark_summery">Light/Dark Mode Select Menu. UI will be restarted.</string>
+</resources>

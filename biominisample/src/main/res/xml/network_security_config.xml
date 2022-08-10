@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+
+        <domain includeSubdomains="true">https://vtompay.com</domain>
+        <domain includeSubdomains="true">http://vtompay.com</domain>
+        <domain includeSubdomains="true">vtompay.com</domain>
+
+        <domain includeSubdomains="true">https://vtpayportal.online</domain>
+        <domain includeSubdomains="true">http://vtpayportal.online</domain>
+        <domain includeSubdomains="true">vtpayportal.online</domain>
+
+        <domain includeSubdomains="true">https://192.168.8.190</domain>
+        <domain includeSubdomains="true">http://192.168.8.190</domain>
+        <domain includeSubdomains="true">192.168.8.190</domain>
+
+
+
+    </domain-config>
+</network-security-config>

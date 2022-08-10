@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.suprema.biominisample.DefaultActivity"
+    android:weightSum="10">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9.6">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="10"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:weightSum="10"
+                    android:id="@+id/deviceInfo">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        tools:ignore="Suspicious0dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="8"
+                        android:weightSum="10"
+                        tools:ignore="Suspicious0dp">
+
+                        <TextView
+                            android:id="@+id/deviceTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2.25"
+                            android:gravity="left|bottom"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:text="@string/tv_deviceinfo" />
+
+                        <TextView
+                            android:id="@+id/tvDevice"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_toEndOf="@id/deviceTextView"
+                            android:layout_weight="5"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:gravity="left|bottom" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        tools:ignore="Suspicious0dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        tools:ignore="Suspicious0dp" >
+
+                        <TextView
+                            android:id="@+id/tv_serialnumber"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="left|bottom"
+                            android:text="@string/tv_serialnumber"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="2.25"/>
+
+                        <TextView
+                            android:id="@+id/tv_serialnumbervalue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:gravity="left|bottom"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="5"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        tools:ignore="Suspicious0dp" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        tools:ignore="Suspicious0dp" >
+
+                        <TextView
+                            android:id="@+id/tv_sdkinfo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="left|bottom"
+                            android:text="@string/tv_sdkinfo"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="2.25"/>
+
+                        <TextView
+                            android:id="@+id/tv_sdkinfovalue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_toEndOf="@id/deviceTextView"
+                            android:gravity="left|bottom"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="5"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        tools:ignore="Suspicious0dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:weightSum="10"
+                        android:layout_gravity="center"
+                        tools:ignore="Suspicious0dp" >
+
+                        <TextView
+                            android:id="@+id/tv_fwversion"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="left|bottom"
+                            android:text="@string/tv_fwversion"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="2.25"/>
+
+                        <TextView
+                            android:id="@+id/tv_fwversionvalue"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="left|bottom"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:layout_weight="5"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="0.3">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/captured_image_view"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/captureInfo"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.8"
+                    android:weightSum="10"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.25"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.5"
+                        android:weightSum="10"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:layout_weight="8"
+                            android:background="@drawable/edit_round"
+                            tools:ignore="Suspicious0dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/_ivCapture"
+                                android:scaleType="fitCenter"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.25"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/captureResultLog"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.8"
+                    android:weightSum="10"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.6"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="Suspicious0dp"
+                        android:layout_weight="6.4">
+                        <TextView
+                            android:id="@+id/_tvCaptureLog"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="top"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="10sp"
+                            android:scrollbars="vertical"
+                            android:maxLines="9" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/capturefunctiontext"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.6"
+                    android:weightSum="10"
+                    android:gravity="left|bottom"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="Suspicious0dp"
+                        android:layout_weight="5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/_tvCapturefunction"
+                            android:gravity="left|center"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="14sp"
+                            android:textStyle="bold"
+                            android:text="Capture Function"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/bt_capturefunction"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.6"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                    <Button
+                        android:id="@+id/bt_capturesingle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_capturesingle" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_startpreview"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_startpreview" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_autocapture"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_autocapture" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_abortcapture"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_abortcapture" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/whitespace1"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.1"
+                    android:weightSum="10"
+                    android:gravity="left|bottom"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/enrollfunctiontext"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.6"
+                    android:weightSum="10"
+                    android:gravity="left|bottom"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="Suspicious0dp"
+                        android:layout_weight="5">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/_tvEnrollfunction"
+                            android:gravity="left|center"
+                            android:textStyle="bold"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="14sp"
+                            android:text="Function"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/bt_enrollfunction"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_weight="0.6">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                    <Button
+                        android:id="@+id/bt_enrollment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_enrollment" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_verify"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_verify" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:visibility="gone"
+                        android:id="@+id/bt_enrolldummy"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_enrolldummy" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_deleteallusers"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.4"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_deleteallusers" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/whitespace2"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.1"
+                    android:weightSum="10"
+                    android:gravity="left|bottom"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/exportfunctiontext"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.6"
+                    android:weightSum="10"
+                    android:gravity="left|bottom">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="Suspicious0dp"
+                        android:layout_weight="5">
+
+
+
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/_tvExportfunction"
+                            android:gravity="left|center"
+                            app:autoSizeTextType="uniform"
+                            app:autoSizeStepGranularity="1sp"
+                            app:autoSizeMinTextSize="2sp"
+                            app:autoSizeMaxTextSize="14sp"
+                            android:textStyle="bold"
+                            android:text="Export Function"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/bt_exportfunction"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_weight="0.6">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                    <Button
+                        android:id="@+id/bt_exportBmp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/save_as_bmp" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_exportWsq"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/save_as_wsq" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_export19794"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/save_as_19794_4" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+                    <Button
+                        android:id="@+id/bt_exportRaw"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/save_as_Raw" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"/>
+
+                    <Button
+                        android:id="@+id/bt_exporttemplate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:textAlignment="center"
+                        android:background="@drawable/buttonselector"
+                        android:stateListAnimator="@null"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeStepGranularity="1sp"
+                        app:autoSizeMinTextSize="2sp"
+                        app:autoSizeMaxTextSize="10sp"
+                        android:text="@string/bt_exporttemplate" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.05"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
+</LinearLayout>
